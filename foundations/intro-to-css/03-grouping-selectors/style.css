@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+.clk{
+    background-color: black;
+    color: whitesmoke;
+}
+.nclk{
+    background-color: yellow;
+}
+.clk , .nclk{
+    font-size: 28px;
+    font-family: Helvetica , Times New Roman, sans-serif;
+}
