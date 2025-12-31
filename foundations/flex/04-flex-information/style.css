@@ -28,24 +28,28 @@ img {
   background: #eee;
 }
 /* soln */
-.maindiv{
+body{
+  text-align: center;
+}
+/* .maindiv{
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 .container{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
   border: 1px solid red;
-  gap: 20px;
+  gap: 52px;
 }
 .one , .two , .three, .four{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  /* justify-content: center;  */
   align-items: center;
+  max-width: 200px;
 }
-.text{
+/* .text{
   text-align: center;
-}
+} */
