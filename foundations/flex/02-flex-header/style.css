@@ -1,11 +1,9 @@
-* {
-  outline: auto;
-}
 .header  {
   font-family: monospace;
   background: papayawhip;
+
   display: flex;
-  /* padding: 20px; */
+  padding: 8px;
   justify-content: space-between;
   align-items: center;
 }
@@ -18,46 +16,24 @@
   padding: 4px 32px;
 }
 
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
-  display: flex;
-  justify-items: center;
-  justify-content:center ;
-  align-items: center;
-}
+
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  padding: 8px;
 }
 
-.left-links{
-  /* flex: 1 1 auto; */
-  display: flex;
-}
-.left-links ul , .right-links ul {
-  display: flex;
-  flex: auto;
-  justify-content: center;
-  align-items: center;
-  
 
-}
-li {
-  flex: 1 1 auto;
-  justify-content: center;
-  align-items: center;
-
-}
-a {
-  flex: auto;
-  justify-content: center;
-}
-.right-links{
-  /* flex: 1 1 auto; */
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
+
+
